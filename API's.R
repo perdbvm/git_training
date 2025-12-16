@@ -42,7 +42,7 @@ resp %>%
 
 
 req <- request("https://google-translate113.p.rapidapi.com/api/v1/translator/detect-language") %>% 
-  req_headers('X-RapidAPI-Key' = "INSERT_YOUR_OWN_API_KEY",
+  req_headers('X-RapidAPI-Key' = 'eeca757160mshef1f43bc5b04d95p1fe596jsn16d3489ae77c',
               'X-RapidAPI-Host' = 'google-translate113.p.rapidapi.com' ) %>%
   req_body_json(list(text = "Hej verden!"))
 
