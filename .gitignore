@@ -4,3 +4,5 @@
 .Ruserdata
 credentials.R
 only_for_local_use.R
+.credentials.R
+credentials.R
